@@ -1,3 +1,4 @@
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,16 +6,21 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+
+# VS Code
+.vscode/
+
+# Visual Studio
+*.csproj
+*.sln
+*.slnx
+
+# Meta files (keep these actually)
+# *.meta
+
+# OS
 .DS_Store
-*.apk
-*.aab
-*.unitypackage
-crashlytics-build.properties
-Assets/AssetStoreTools*
+Thumbs.db
+
+# Unity VCS
+/.plastic4
